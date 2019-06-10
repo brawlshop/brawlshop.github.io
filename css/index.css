@@ -16,6 +16,10 @@ body, html {
 	background-color: #78B6FB;
 }
 
+header {
+	float: left;
+}
+
 header>div#title {
 	position: relative;
 	display: inline-block;
