@@ -32,7 +32,7 @@ header>div#title>span#brawl {
 	font-family: brawl;
 	font-size: 5vw;
 	top: 10%;
-	right: 50.5%;
+	right: 49%;
 	color: #FFF!important;
 	text-shadow: 2px 0 2px #000, 0 2px 2px #000, -2px 0 2px #000, 0 -2px 2px #000;
 }
@@ -42,7 +42,7 @@ header>div#title>span#shop {
 	font-family: brawl;
 	font-size: 5vw;
 	top: 10%;
-	left: 50%;
+	left: 52%;
 	color: #FF0000!important;
 	text-shadow: 1px 0 1px #000, 0 1px 1px #000, -1px 0 1px #000, 0 -1px 1px #000;
 }
@@ -56,12 +56,58 @@ header>div#links {
 header>div#links>a {
 	text-decoration: none;
 	font-family: 'Roboto Slab', serif;
-	font-size: 2.5vw;
+	font-size: 2.25vw;
 	right: 50.5%;
-	border: 2px solid #831EFF;
-	padding-left: 2%;
-	padding-right: 2%;
+	border: 1px solid #831EFF;
+	background-color: rgba(116, 126, 186, 0.5);
+	opacity: 1;
 	border-radius: 20px;
 	color: #FFF!important;
 	text-shadow: 1px 0 1px #000, 0 1px 1px #000, -1px 0 1px #000, 0 -1px 1px #000;
+	transition: 0.5s linear;
+}
+
+header>div#links>a:hover {
+	background-color: rgba(116, 126, 186, 0);
+}
+
+header>div#links>a#gems {
+	padding-left: 5%;
+	padding-right: 5%;
+	margin-right: 5%;
+}
+
+header>div#links>a#rev {
+	padding-left: 3%;
+	padding-right: 3%;
+}
+
+header>div#links>a#ac {
+	padding-left: 2%;
+	padding-right: 2%;
+	margin-left: 5%;
+}
+
+header>div#mail {
+	position: relative;
+	left: 1%;
+	margin-top: -10%;
+	float: left;
+}
+
+header>div#mail>a>img {
+	width: 12%;
+	border: 1px solid #343434;
+	border-radius: 5px;
+	padding: 0.3%;
+	background-color: rgba(116, 126, 186, 0.5);
+	transition: 0.5s linear;
+}
+
+header>div#mail>a>img:hover {
+	width: 12%;
+	border: 1px solid #343434;
+	border-radius: 5px;
+	padding: 0.3%;
+	background-color: rgba(116, 126, 186, 0);
 }
