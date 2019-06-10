@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
+
+@font-face {
+	font-family: 'brawl';
+	src: url('fonts/brawl.otf');
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body, html {
+	width: 100%;
+	height: 100%;
+	background-color: #78B6FB;
+}
+
+header>div#title {
+	position: relative;
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+}
+
+header>div#title>img {
+	width: 100%;
+}
+
+header>div#title>span#brawl {
+	position: absolute;
+	font-family: brawl;
+	font-size: 5vw;
+	top: 10%;
+	right: 50.5%;
+	color: #FFF!important;
+	text-shadow: 2px 0 2px #000, 0 2px 2px #000, -2px 0 2px #000, 0 -2px 2px #000;
+}
+
+header>div#title>span#shop {
+	position: absolute;
+	font-family: brawl;
+	font-size: 5vw;
+	top: 10%;
+	left: 50%;
+	color: #FF0000!important;
+	text-shadow: 1px 0 1px #000, 0 1px 1px #000, -1px 0 1px #000, 0 -1px 1px #000;
+}
+
+header>div#links {
+	position: relative;
+	margin-top: -2%;
+	text-align: center;
+}
+
+header>div#links>a {
+	text-decoration: none;
+	font-family: 'Roboto Slab', serif;
+	font-size: 2.5vw;
+	right: 50.5%;
+	border: 2px solid #831EFF;
+	padding-left: 2%;
+	padding-right: 2%;
+	border-radius: 20px;
+	color: #FFF!important;
+	text-shadow: 1px 0 1px #000, 0 1px 1px #000, -1px 0 1px #000, 0 -1px 1px #000;
+}
