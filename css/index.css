@@ -262,4 +262,140 @@ main>div#shop>div#price1>a {
 	padding-right: 2%;
 	padding-top: 0.5%;
 	padding-bottom: 0.5%;
+	transition: 0.5s linear;
+}
+
+main>div#shop>div#price1>a:hover {
+	background-color: rgba(116, 126, 186, 0);
+	border: 1px solid #343434;
+}
+
+main>div#shop>div#price2 {
+	position: relative;
+	margin-top: -3%;
+	margin-left: 46%;
+}
+
+main>div#shop>div#price2>a {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 2.25vw;
+	text-decoration: none;
+	color: #FFF;
+	border: 1px solid #831EFF;
+	border-radius: 2px;
+	background-color: rgba(116, 126, 186, 0.7);
+	padding-left: 3%;
+	padding-right: 3%;
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
+	transition: 0.5s linear;
+}
+
+main>div#shop>div#price2>a:hover {
+	background-color: rgba(116, 126, 186, 0);
+	border: 1px solid #343434;
+}
+
+main>div#shop>div#price3 {
+	position: relative;
+	margin-top: -3%;
+	margin-left: 72%;
+}
+
+main>div#shop>div#price3>a {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 2.25vw;
+	text-decoration: none;
+	color: #FFF;
+	border: 1px solid #831EFF;
+	border-radius: 2px;
+	background-color: rgba(116, 126, 186, 0.7);
+	padding-left: 4%;
+	padding-right: 4%;
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
+	transition: 0.5s linear;
+}
+
+main>div#shop>div#price3>a:hover {
+	background-color: rgba(116, 126, 186, 0);
+	border: 1px solid #343434;
+}
+
+main>div#shop>div#price4 {
+	position: relative;
+	margin-top: 21%;
+	margin-left: 20.3%;
+}
+
+main>div#shop>div#price4>a {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 2.25vw;
+	text-decoration: none;
+	color: #FFF;
+	border: 1px solid #831EFF;
+	border-radius: 2px;
+	background-color: rgba(116, 126, 186, 0.7);
+	padding-left: 2%;
+	padding-right: 2%;
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
+	transition: 0.5s linear;
+}
+
+main>div#shop>div#price4>a:hover {
+	background-color: rgba(116, 126, 186, 0);
+	border: 1px solid #343434;
+}
+
+main>div#shop>div#price5 {
+	position: relative;
+	margin-top: -2.8%;
+	margin-left: 46%;
+}
+
+main>div#shop>div#price5>a {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 2.25vw;
+	text-decoration: none;
+	color: #FFF;
+	border: 1px solid #831EFF;
+	border-radius: 2px;
+	background-color: rgba(116, 126, 186, 0.7);
+	padding-left: 3%;
+	padding-right: 3%;
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
+	transition: 0.5s linear;
+}
+
+main>div#shop>div#price5>a:hover {
+	background-color: rgba(116, 126, 186, 0);
+	border: 1px solid #343434;
+}
+
+main>div#shop>div#price6 {
+	position: relative;
+	margin-top: -2.8%;
+	margin-left: 72%;
+}
+
+main>div#shop>div#price6>a {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 2.25vw;
+	text-decoration: none;
+	color: #FFF;
+	border: 1px solid #831EFF;
+	border-radius: 2px;
+	background-color: rgba(116, 126, 186, 0.7);
+	padding-left: 4%;
+	padding-right: 4%;
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
+	transition: 0.5s linear;
+}
+
+main>div#shop>div#price6>a:hover {
+	background-color: rgba(116, 126, 186, 0);
+	border: 1px solid #343434;
 }
