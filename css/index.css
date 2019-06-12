@@ -514,14 +514,14 @@ info>div#supercell {
 
 info>div#supercell>span {
 	font-family: 'Roboto Condensed', sans-serif;
-	font-size: 1.5vw;
+	font-size: 1.75vw;
 	color: #FC3F3F;
 }
 
 info>div#supercell>span>a {
 	text-decoration: none;
 	font-family: supercell;
-	font-size: 1vw;
+	font-size: 1.25vw;
 	color: #FFF;
 	margin-left: 1%;
 	transition: 0.5s linear;
@@ -538,7 +538,7 @@ info>div#orders {
 
 info>div#orders>span {
 	font-family: 'Roboto Condensed', sans-serif;
-	font-size: 1.5vw;
+	font-size: 1.75vw;
 	color: #FC3F3F;
 }
 
@@ -550,14 +550,14 @@ info>div#rev {
 
 info>div#rev>span {
 	font-family: 'Roboto Condensed', sans-serif;
-	font-size: 1.5vw;
+	font-size: 1.75vw;
 	color: #FFF;
 }
 
 info>div#rev>span>a {
 	text-decoration: none;
 	font-family: 'Roboto Condensed', sans-serif;
-	font-size: 1.5vw;
+	font-size: 1.75vw;
 	color: #FC3F3F;
 	margin-left: 1%;
 	transition: 0.5s linear;
