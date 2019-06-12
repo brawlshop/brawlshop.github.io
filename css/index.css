@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
 
 @font-face {
 	font-family: 'brawl';
@@ -324,7 +325,7 @@ main>div#shop>div#price3>a:hover {
 
 main>div#shop>div#price4 {
 	position: relative;
-	margin-top: 21%;
+	margin-top: 22%;
 	margin-left: 20.3%;
 }
 
