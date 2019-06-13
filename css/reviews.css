@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+
+@font-face {
+	font-family: 'brawl';
+	src: url('fonts/brawl.otf');
+}
+
+@font-face {
+	font-family: 'supercell';
+	src: url('fonts/supercell.ttf');
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	width: 100%;
+	background-color: #78B6FB;
+}
+
+::-webkit-scrollbar-button {
+	background-image: url('');
+	background-repeat: no-repeat;
+	width: 5px;
+	height: 0px
+}
+
+::-webkit-scrollbar-track {
+	background-color: #8A6FFF
+}
+
+::-webkit-scrollbar-thumb {
+	-webkit-border-radius: 0px;
+	border-radius: 10px;
+	background-color: #3C22FF;
+}
+
+::-webkit-scrollbar-thumb:hover{
+	background-color: #0600FF;
+}
+
+::-webkit-resizer{
+	background-image: url('');
+	background-repeat: no-repeat;
+	width: 4px;
+	height: 0px
+}
+
+::-webkit-scrollbar{
+	width: 6px;
+}
+
+header {
+	width: 100%;
+}
+
+header>div#title {
+	width: 100%;
+	position: relative;
+	display: inline-block;
+	text-align: center;
+}
+
+header>div#title>img {
+	width: 100%;
+}
+
+header>div#title>span#brawl {
+	position: absolute;
+	font-family: brawl;
+	font-size: 5vw;
+	top: 10%;
+	right: 49%;
+	color: #FFF!important;
+	text-shadow: 2px 0 2px #000, 0 2px 2px #000, -2px 0 2px #000, 0 -2px 2px #000;
+}
+
+header>div#title>span#shop {
+	position: absolute;
+	font-family: brawl;
+	font-size: 5vw;
+	top: 10%;
+	left: 52%;
+	color: #FF0000!important;
+	text-shadow: 1px 0 1px #000, 0 1px 1px #000, -1px 0 1px #000, 0 -1px 1px #000;
+}
+
+header>div#links {
+	position: relative;
+	margin-top: -2%;
+	text-align: center;
+}
+
+header>div#links>a {
+	text-decoration: none;
+	font-family: 'Roboto Slab', serif;
+	font-size: 2.25vw;
+	right: 50.5%;
+	border: 1px solid #831EFF;
+	background-color: rgba(116, 126, 186, 0.7);
+	opacity: 1;
+	border-radius: 20px;
+	color: #FFF;
+	text-shadow: 1px 0 1px #000, 0 1px 1px #000, -1px 0 1px #000, 0 -1px 1px #000;
+	transition: 0.5s linear;
+}
+
+header>div#links>a:hover {
+	background-color: rgba(116, 126, 186, 0);
+	border: 1px solid #343434;
+}
+
+header>div#links>a#gems {
+	padding-left: 5%;
+	padding-right: 5%;
+	margin-right: 5%;
+}
+
+header>div#links>a#rev {
+	padding-left: 3%;
+	padding-right: 3%;
+}
+
+header>div#links>a#hrs {
+	padding-left: 4%;
+	padding-right: 4%;
+	margin-left: 5%;
+}
+
+main {
+	margin-top: 5%;
+	margin-bottom: 90%;
+}
+
+main>div#title {
+	text-align: center;
+	margin-bottom: 5%;
+}
+
+main>div#title>span {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 2.25vw;
+	color: #FFF;
+	text-shadow: 1px 0 1px #000, 0 1px 1px #000, -1px 0 1px #000, 0 -1px 1px #000;
+}
+
+main>div#user {
+	float: left;
+	margin-left: 10%;
+}
+
+main>div#user>img {
+	float: left;
+	width: 20%;
+	border: 1px solid #343434;
+	border-radius: 50%;
+}
+
+main>div#user>input {
+	width: 40%;
+	padding: 1%;
+	margin-left: 1%;
+	margin-top: 4%;
+	border: 1px solid #343434;
+	border-radius: 5px;
+	background-color: #7E7BFF;
+	color: #FFF;
+	font-size: 1vw;
+}
+
+main>div#user>textarea {
+	height: 50px;
+	resize: none;
+	width: 40%;
+	padding: 1%;
+	margin-left: 1%;
+	margin-top: 5%;
+	border: 1px solid #343434;
+	border-radius: 5px;
+	background-color: #7E7BFF;
+	color: #FFF;
+	font-size: 1vw;
+}
+
+main>div#user>button {
+	width: 40%;
+	padding: 1%;
+	margin-left: 22.5%;
+	margin-top: 5%;
+	border: 1px solid #343434;
+	border-radius: 5px;
+	background-color: #7E7BFF;
+	color: #FFF;
+	font-size: 1vw;
+	margin-bottom: 30%;
+}
+
+main>div#rev {
+	float: left;
+	margin-left: 10%;
+	margin-bottom: 5%;
+}
+
+main>div#rev>img {
+	float: left;
+	width: 15%;
+	border: 1px solid #343434;
+	border-radius: 50%;
+}
+
+main>div#rev>span#name {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 1.75vw;
+	margin-left: 2%;
+	color: #343434;
+}
+
+main>div#rev>span {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 1.5vw;
+	margin-left: 3%;
+	color: #000;
+}
+
+::-webkit-input-placeholder {color:#E0E0E0; opacity:1; }
+::-moz-placeholder {color:#E0E0E0; opacity:1; }
+::-moz-placeholder {color:#E0E0E0; opacity:1; }
+::-ms-input-placeholder {color:#E0E0E0; opacity:1; }
+
+footer1 {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	margin-left: 1%;
+}
+
+footer1>div#title {
+	text-align: center;
+}
+
+footer1>div#title>span#brawl {
+	font-family: brawl;
+	font-size: 1.5vw;
+	color: #FFF!important;
+	text-shadow: 2px 0 2px #000, 0 2px 2px #000, -2px 0 2px #000, 0 -2px 2px #000;
+}
+
+footer1>div#title>span#shop {
+	font-family: brawl;
+	font-size: 1.5vw;
+	color: #FF0000!important;
+	text-shadow: 1px 0 1px #000, 0 1px 1px #000, -1px 0 1px #000, 0 -1px 1px #000;
+}
+
+footer2 {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	margin-right: 1%;
+}
+
+footer2>div#title {
+	text-align: center;
+}
+
+footer2>div#title>span#brawl {
+	font-family: brawl;
+	font-size: 1.5vw;
+	color: #FFF!important;
+	text-shadow: 2px 0 2px #000, 0 2px 2px #000, -2px 0 2px #000, 0 -2px 2px #000;
+}
+
+footer2>div#title>span#shop {
+	font-family: brawl;
+	font-size: 1.5vw;
+	color: #FF0000!important;
+	text-shadow: 1px 0 1px #000, 0 1px 1px #000, -1px 0 1px #000, 0 -1px 1px #000;
+}
