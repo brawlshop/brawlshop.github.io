@@ -74,15 +74,13 @@ main {
 }
 
 main>div#box1 {
-	float: left;
 	width: 80%;
 	margin-left: 10%;
 	background-color: rgba(102, 15, 15, 0.3);
 	border-radius: 5px;
 	box-shadow: 1px 1px 10px #000;
-	padding: 1%;
+	float: left;
 	margin-bottom: 10%;
-	padding-bottom: 5%;
 }
 
 main>div#box1>div#title {
@@ -92,67 +90,80 @@ main>div#box1>div#title {
 
 main>div#box1>div#title>span {
 	font-family: 'Roboto Slab', serif;
-	font-size: 2.5vw;
 	color: #FFF;
+	font-size: 2.5vw;
 }
 
 main>div#box1>div#img {
-	float: left;
 	width: 40%;
-	margin-left: 20%;
-	margin-top: 10%;
+	float: left;
+	margin: 3%;
 }
 
 main>div#box1>div#img>img {
-	width: 20%;
-	border-radius: 50%;
+	width: 80%;
+	border-radius: 5px;
 	box-shadow: 1px 1px 10px #000;
 
 }
 
-main>div#box1>div#review {
+main>div#box1>div#span {
+	width: 50%;
 	float: right;
-	width: 59%;
-	margin-top: -7%;
-	margin-right: 16%;
+	text-align: left;
+}
+
+main>div#box1>div#span>span#key {
+	color: #faff00;
+}
+
+main>div#box1>div#span>span {
+	font-family: 'Roboto Slab', serif;
+	font-size: 2vw;
+	color: #FFF;
+}
+
+main>div#box1>div#form {
+	margin-top: 10%;
+	float: left;
+	width: 100%;
 	text-align: center;
 }
 
-main>div#box1>div#review>textarea {
-	resize: none;
-	width: 70%;
-	height: 100px;
-	box-shadow: 1px 1px 10px #000;
-	border-radius: 2px;
-	background-color: #faff00;
-	border: none;
-	padding: 1%;
-	font-family: 'Roboto Slab', serif;
+main>div#box1>div#form>input {
+	margin-bottom: 3%;
+	width: 35%;
+	padding: 1.5%;
 	color: #000;
 	font-size: 1.5vw;
+	font-family: 'Roboto Slab', serif;
+	background-color: #faff00;
+	border: none;
+	box-shadow: 1px 1px 10px #000;
+	border-radius: 5px;
 	transition: 0.2s linear;
 }
 
-main>div#box1>div#review>textarea:focus {
+main>div#box1>div#form>input:focus {
 	background-color: #FF0000;
 	color: #FFF;
 }
 
-main>div#box1>div#review>button {
-	width: 40%;
-	box-shadow: 1px 1px 10px #000;
-	border-radius: 2px;
-	background-color: #faff00;
-	border: none;
-	padding: 1%;
-	font-family: 'Roboto Slab', serif;
+main>div#box1>div#form>button {
+	margin-bottom: 3%;
+	width: 20%;
+	padding: 1.5%;
 	color: #000;
 	font-size: 1.5vw;
-	margin-top: 3%;
+	font-family: 'Roboto Slab', serif;
+	background-color: #faff00;
+	border: none;
+	box-shadow: 1px 1px 10px #000;
+	border-radius: 5px;
 	transition: 0.2s linear;
 }
 
-main>div#box1>div#review>button:hover {
+main>div#box1>div#form>button:hover {
 	color: #FFF;
 	background-color: #FF0000;
 }
@@ -161,66 +172,3 @@ main>div#box1>div#review>button:hover {
 ::-moz-placeholder          {color:#000; opacity:1;}
 ::-moz-placeholder           {color:#000; opacity:1;}
 ::-ms-input-placeholder      {color:#000; opacity:1;}
-
-main>div#box2 {
-	float: left;
-	width: 80%;
-	margin-left: 10%;
-	background-color: rgba(102, 15, 15, 0.3);
-	border-radius: 5px;
-	box-shadow: 1px 1px 10px #000;
-	padding: 1%;
-	margin-bottom: 10%;
-	padding-bottom: 6%;
-}
-
-main>div#box2>div#title {
-	text-align: center;
-	margin: 3%;
-}
-
-main>div#box2>div#title>span {
-	font-family: 'Roboto Slab', serif;
-	color: #FFF;
-	font-size: 2.5vw;
-}
-
-main>div#box2>div#icon {
-	float: left;
-	width: 20%;
-	margin-left: 10%;
-	margin-top: 10%;
-}
-
-main>div#box2>div#icon>img {
-	width: 50%;
-	border-radius: 50%;
-	box-shadow: 1px 1px 10px #000;
-
-}
-
-main>div#box2>div#name {
-	float: right;
-	width: 59%;
-	margin-top: -10%;
-	margin-right: 40%;
-	text-align: center;
-}
-
-main>div#box2>div#name>span {
-	font-family: 'Roboto Slab', serif;
-	font-size: 2vw;
-	color: #faff00;
-}
-
-main>div#box2>div#rev {
-	float: right;
-	width: 75%;
-	margin-top: -5%;
-}
-
-main>div#box2>div#rev>span {
-	font-family: 'Roboto Slab', serif;
-	font-size: 1.5vw;
-	color: #FFF;
-}
